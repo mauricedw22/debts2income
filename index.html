@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Quicksand|Acme|Montserrat|Philosopher|Lato' rel='stylesheet' type='text/css' />
+
+<!-- favicon/favicon-32x32.png
+<link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico" />  -->
+
+<title> Debts 2 Income </title>
+
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48210813-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- jQuery Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- SEMANTIC UI via gulp build -->
+<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+<script src="semantic/semantic.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+
+<!-- Materialize Javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+
+<style>
+
+.input-field input[type=number]:focus + label{
+
+color:red;
+
+}
+
+.input-field input[type=number]:focus{
+
+border-bottom: 1px solid blue;
+color: #9a9a9a;
+
+}
+
+.ratio{
+
+font-family:'Montserrat';
+color: blue;
+letter-spacing: -3px;
+
+}
+
+#ratio{
+
+font-family:'Montserrat';
+color: red;
+text-align: center;
+
+}
+
+</style>
+
+<!-- Angular Scripts  -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script> 
+<script src="angularjs.min.js"></script>
+
+<script src="app.js"></script>
+
+<!-- D3.js & Dimple scripts -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
+
+</head>
+<body data-ng-app="app" data-ng-controller="ctrl">
+
+  <h2 style="font-family:'Montserrat';color:red;text-shadow: 5px 5px 7px #9a9a9a;text-align:center;"> 
+     Debts 2 Income 
+	 
+	 <BR>
+
+	 <span style="font-size:0.5em;color: blue;font-family:'Quicksand';font-style:italic;"> Steering clear of owing too many and too much! </span>
+	 
+  </h2>
+  
+  <h4 style="background:white;" class="ui horizontal divider header">
+  
+    <span style="color:red;background:white;">
+   
+       <i class="fa fa-money"></i> &nbsp;&nbsp; <i class="fa fa-credit-card"></i>
+   
+       &nbsp; Calculate Your Debt 2 Income Ratio! &nbsp;
+  
+      <i class="fa fa-car"></i> &nbsp;&nbsp; <i class="fa fa-home"></i>
+
+    </span>
+  
+  </h4>
+  
+  <div style="width:80%;margin-left:10%;margin-top:1%;">
+  
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- Debts2Income Ad -->
+	<ins class="adsbygoogle"
+		 style="display:block"
+		 data-ad-client="ca-pub-4780860633796592"
+		 data-ad-slot="1524811669"
+		 data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+  
+  </div>
+	 
+  <div class="col-md-6">
+  
+   <BR>
+	   
+   <div class="ui tall stacked segment">
+	  
+	  <div class="content">		
+			  
+	   <div id="requestForm" class="row">		   
+			   
+		 <form class="col s12">
+		  <div class="row">
+			<div class="input-field col s6">
+			  <input data-ng-model="salary" id="salary" type="number" required>
+			  <label for="salary">Annual Salary</label>
+			</div>
+			<div class="input-field col s6">
+			  <input data-ng-model="credit" id="credit" type="number">
+			  <label for="credit">Credit Card Payments/month</label>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="input-field col s6">
+			  <input data-ng-model="car" id="car" type="number">
+			  <label for="car">Car Loan Payments/month</label>
+			</div>
+			<div class="input-field col s6">
+			  <input data-ng-model="other" id="other" type="number">
+			  <label for="other">Other Non-Mortgage Payments/month</label>
+			</div>
+		  </div>
+		 <!-- <div class="row">
+		     <div class="col s12">
+			    
+				<BR>
+				
+				<button style="width:40%;margin-left:30%;" data-ng-click="revealGraph()" class="ui blue button">Get Debt 2 Income Ratio</button>
+				
+			 </div>
+		  </div> -->
+         </form>
+			  
+			<BR><BR>  
+			  
+		  <button style="width:40%;margin-left:30%;" data-ng-click="revealGraph()" class="ui blue button">Get Debt 2 Income Ratio</button>
+			  
+	   </div>
+	   
+	 </div>
+		 
+   </div>
+	 
+  </div>
+  
+  <BR>
+  
+  <div data-ng-show="di" style="text-align: center" class="col-md-6">
+  
+     <h4 class="ratio"> {{ ratio }} </h4> <h4 id="ratio"> {{ realDI | percento: 2 }} </h4>
+  
+	   <div id="chartContainer"></div> 
+		
+		<p style="text-align:center;color:green;font-family:'Lato';font-size:1.4em;font-style:italic;"> {{ diStatus }} </p>
+		
+		<BR><BR>
+		
+   </div>
+
+<BR><BR><BR><BR>
+
+</body>
+</html>
